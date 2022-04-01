@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Meta -->
+    <title>Playing</title>
+    <meta charset="utf-8" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+
+
+</head>
+<body onload="PageLoad()">
+    <h1 id="turnText">ERROR</h1>
+    <div class="wrapper">
+        <canvas></canvas>
+    </div>
+
+    <div style="display:none;">
+        <img class="imges" id="source1"
+             src="/img/player1.png">
+        <img class="imges" id="source2"
+             src="/img/player2.png">
+        <img class="imges" id="source3"
+             src="/img/Rocc.png">
+    </div>
+    <div style="display:none;">
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/game.js"></script>
+    <script>
+        window.onbeforeunload = function () {
+            SaveScore();
+        };
+    </script>
+</body>
+</html>

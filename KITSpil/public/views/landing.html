@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Meta -->
+    <title>Landing</title>
+    <meta charset="utf-8" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+
+
+    <style>
+        body {
+            background-image: url('/img/MenuBackground.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script src="/js/script.js"></script>
+    <script src="/js/game.js"></script>
+</head>
+<body onload="clear()">
+
+        <div id="MDiv"></div>
+        <div>
+            <div class="menuText">
+                <h1>TANK</h1>
+                <a href="playing">PLAY</a>
+                <a href="leaderboard">LEADERBOARD</a>
+                <a href="settings">SETTINGS</a>
+            </div>
+        </div>
+
+    <script>
+        function clear() {
+            localStorage.setItem("tempcurrentScore1Saved", 0);
+            localStorage.setItem("tempcurrentScore2Saved", 0);
+        }
+    </script>
+</body>
+</html>
