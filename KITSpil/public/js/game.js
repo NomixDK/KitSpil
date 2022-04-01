@@ -5,6 +5,7 @@ canvas.width = 1000;
 canvas.height = 800;
 console.log(canvas);
 c.font = "20px Arial";
+c.fillStyle = "white";
 
 const image1 = document.getElementById('source1');
 const image2 = document.getElementById('source2');

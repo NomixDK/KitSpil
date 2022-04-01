@@ -71,7 +71,6 @@ canvas {
     background-image: url('/img/Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .player {
@@ -94,7 +93,20 @@ canvas {
 }
 
 #turnText {
-    position:fixed;
+    position: fixed;
     left: 40%;
     user-select: none;
+    font-family: Arial;
+    font-weight: 500;
+    color: white;
+}
+
+#button2 {
+    background-color: rgb(132, 108, 84);
+    border: 5px inset saddlebrown;
+    height: 100px;
+    width: 100px;
+    font-family: Arial;
+    font-weight: 700;
+    color: white;
 }
